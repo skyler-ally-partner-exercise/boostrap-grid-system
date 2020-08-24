@@ -5,25 +5,51 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Codeup Design</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">    <!-- Your custom css styles go here -->
-    <style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Your custom css styles go here -->
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap" rel="stylesheet">    <style>
+
         .container {
-            background-color: lightgrey;
+            background-color: #E6E6E6;
+            font-family: 'Abel', sans-serif;
         }
         #logo {
             background-color: white;
         }
+
+        .headings {
+            font-family: 'Anton', sans-serif;
+        }
         .rounded-circle {
             border: white solid 6px;
-            background-color: orange;
             height: 105px;
             width: 105px;
+            color: white;
         }
-        #appleIpad {
+        .project-image {
             border: gray solid 6px;
             width: 90%;
             border-radius: 5px;
         }
+        .badge {
+            height: 18px;
+            width: 18px;
+            border-radius: 120px;
+            color: black;
+        }
+        .orange {
+            background-color: #E6563B;
+        }
+        .yellow {
+            background-color: #DEA03D;
+        }
+        .green {
+            background-color: #7CB06C;
+        }
+        .blue {
+            background-color: #00ABA9;
+        }
+
     </style>
 </head>
 <body>
@@ -34,71 +60,123 @@
 <!--                <img src="assets/logo.png">-->
 <!--            </div>-->
 <!--        </div>-->
-        <header>
+        <header class="text-center">
         <div class="row">
             <div class="col-12  text-center">
                 <h2>codeup design</h2>
             </div>
         </div>
+        <nav class="navbar navbar-expand">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-dark">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-dark">WORK</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-dark">BLOG</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-dark">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
         <div class="row">
-            <div class="col-3">
-                SERVICES
-            </div>
-            <div class="col-3">
-                WORK
-            </div>
-            <div class="col-3">
-                BLOG
-            </div>
-            <div class="col-3">
-                CONTACT
+            <div class="col-12 text-center">
+                <h1 class="headings">VISUAL DESIGN & WEB DEVELOPMENT</h1>
             </div>
         </div>
         <div class="row">
             <div class="col-12 text-center">
-                <h1>VISUAL DESIGN & WEB DEVELOPMENT</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 text-center">
-                <h2>FROM PARK CITY, UTAH</h2>
+                <h2 class="headings">FROM PARK CITY, UTAH</h2>
             </div>
         </div>
         <div class="row">
             <div class="col-6">
-                <div class="rounded-circle  ml-auto align-text-bottom">
-                    <h4 class="my-4">DESIGN</h4>
+                <div class="rounded-circle  ml-auto orange">
+                    <h4 class="my-4 headings">DESIGN</h4>
                 </div>
             </div>
             <div class="col-6 text-center">
-                <div class="rounded-circle mr-auto">
-                    <h4 class="my-4">DEVELOP</h4>
+                <div class="rounded-circle mr-auto yellow">
+                    <h4 class="my-4 headings">DEVELOP</h4>
                 </div>
             </div>
             <div class="col-6 text-center mt-2">
-                <div class="rounded-circle ml-auto">
-                    <h4 class="my-4">SUPPORT</h4>
+                <div class="rounded-circle ml-auto green">
+                    <h4 class="my-4 headings">SUPPORT</h4>
                 </div>
             </div>
             <div class="col-6 text-center mt-2">
-                <div class="rounded-circle mr-auto">
-                    <h4 class="my-4">HOST</h4>
+                <div class="rounded-circle mr-auto blue">
+                    <h4 class="my-4 headings">HOST</h4>
                 </div>
             </div>
         </div> <!-- Circles End -->
         </header>
-        <main>
+        <main class="text-center">
             <div class="row">
                 <div class="col-12 text-center">
                     <h6>SELECTED WORK</h6>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 text-center">
-                    <img id="appleIpad" src="assets/images/apple-ipad.jpg">
+                <div class="col-12 ">
+                    <img src="assets/images/apple-ipad.jpg" class="text-center project-image">
+                    <div class="row">
+                        <div class="col-6">
+                            <h6>FEATURED PROJECT</h6>
+                        </div>
+                        <div class="col-5 ml-auto">
+                            <span class="badge badge-danger orange">D</span>
+                            <span class="badge badge-warning yellow">D</span>
+                            <span class="badge badge-success green">S</span>
+                            <span class="badge badge-primary blue">H</span>
+                        </div>
+                    </div>
                 </div>
-                <div class=" col-12">
-                    <h6>FEATURED PROJECT</h6>
+                <div class="col-12 ">
+                    <img src="assets/images/macbook.jpg" class="text-center project-image">
+                    <div class="row">
+                        <div class="col-6">
+                            <h6>FEATURED PROJECT</h6>
+                        </div>
+                        <div class="col-5 ml-auto">
+                            <span class="badge badge-danger orange">D</span>
+                            <span class="badge badge-warning yellow">D</span>
+                            <span class="badge badge-success green">S</span>
+                            <span class="badge badge-primary blue">H</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 ">
+                    <img src="assets/images/man.jpg" class="text-center project-image">
+                    <div class="row">
+                        <div class="col-6">
+                            <h6>FEATURED PROJECT</h6>
+                        </div>
+                        <div class="col-5 ml-auto">
+                            <span class="badge badge-danger orange">D</span>
+                            <span class="badge badge-warning yellow">D</span>
+                            <span class="badge badge-success green">S</span>
+                            <span class="badge badge-primary blue">H</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 ">
+                    <img src="assets/images/security.jpg" class="text-center project-image">
+                    <div class="row">
+                        <div class="col-6">
+                            <h6>FEATURED PROJECT</h6>
+                        </div>
+                        <div class="col-5 ml-auto">
+                            <span class="badge badge-danger orange">D</span>
+                            <span class="badge badge-warning yellow">D</span>
+                            <span class="badge badge-success green">S</span>
+                            <span class="badge badge-primary blue">H</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
