@@ -1,6 +1,7 @@
-
+body {
+    background-color:#E6E6E6;
+}
 .container {
-    background-color: #E6E6E6;
     font-family: 'Abel', sans-serif;
 }
 #logoBack{
@@ -91,28 +92,42 @@ h1 {
     hr {
         display: none;
     }
+    .theLast {
+        display: none;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width:768px) {
-
+    .container {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
     #logo {
         position: relative;
         right: 286px;
     }
-
+    #logoBack {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+    }
     .companyName {
         position: relative;
         bottom: 97px;
         right: 139px;
         z-index: 2;
     }
-
     #nav {
+        width: 90%;
         position: relative;
         z-index: 2;
         bottom: 150px;
-        left: 225px;
+        left: 35px;
         margin: 0;
     }
 
@@ -132,9 +147,24 @@ h1 {
         bottom: 60px;
         margin: 0 1em;
     }
-
+    #theLastHeader {
+        font-family: Abel;
+    }
+    .lastDescription {
+        font-family: Anton;
+        margin: 0;
+        font-size: 100%;
+    }
     #visualDesign h2 {
         font-size: 38px;
     }
-
+    .theLast {
+        display: block;
+    }
+    .theLast-image {
+        width: 31%;
+        height: 31%;
+        margin-left: 10px;
+        padding-right: 10px;
+    }
 }
