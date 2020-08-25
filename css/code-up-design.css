@@ -82,3 +82,52 @@ p {
     justify-content: space-between;
     width: 35%;
 }
+
+/* Small devices (phones and pocket devices, 576 and up) */
+@media screen and (min-width:320px) {
+    hr {
+        display: none;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width:768px) {
+
+    #logo {
+        position: relative;
+        right: 280px;
+    }
+
+    .companyName {
+        position: relative;
+        bottom: 97px;
+        right: 135px;
+        z-index: 2;
+    }
+
+    #nav {
+        position: relative;
+        z-index: 2;
+        bottom: 150px;
+        left: 225px;
+        margin: 0;
+
+    }
+
+    .mainHeader {
+        position: relative;
+        bottom: 100px;
+        z-index: 3;
+    }
+
+    #circles {
+        display: flex;
+        justify-content: center;
+    }
+
+    hr {
+        display: block;
+    }
+
+
+}
