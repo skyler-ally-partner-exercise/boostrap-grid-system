@@ -147,6 +147,16 @@ h1 {
         bottom: 60px;
         margin: 0 1em;
     }
+    .project-image {
+        width: 90%;
+        height: 35%;
+    }
+    .feature {
+        margin: 2em;
+    }
+    .projectBadges {
+        margin-bottom: 3em;
+    }
     #theLastHeader {
         font-family: Abel;
     }
