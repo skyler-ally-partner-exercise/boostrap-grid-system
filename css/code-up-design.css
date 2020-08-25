@@ -121,8 +121,6 @@ p {
     }
 
     #circles {
-        display: flex;
-        justify-content: center;
     }
 
     hr {
