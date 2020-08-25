@@ -17,8 +17,20 @@
     margin: 1.5em auto;
 }
 
-.headings {
+.headings, span {
     font-family: 'Anton', sans-serif;
+}
+#nav{
+    margin-bottom: 2em;
+}
+#utah {
+    margin-bottom: 2em;
+}
+#visualDesign {
+    margin-bottom: 2em;
+}
+#circles {
+    margin-bottom: 6em;
 }
 .rounded-circle {
     border: white solid 6px;
@@ -48,4 +60,19 @@
 }
 .blue {
     background-color: #00ABA9;
+}
+p {
+    font-size: .9em;
+}
+.projectBadges {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+}
+.badgeBase {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
 }
