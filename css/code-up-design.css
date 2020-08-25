@@ -82,6 +82,9 @@ p {
     justify-content: space-between;
     width: 35%;
 }
+h1 {
+
+}
 
 /* Small devices (phones and pocket devices, 576 and up) */
 @media screen and (min-width:320px) {
@@ -95,13 +98,13 @@ p {
 
     #logo {
         position: relative;
-        right: 280px;
+        right: 286px;
     }
 
     .companyName {
         position: relative;
         bottom: 97px;
-        right: 135px;
+        right: 139px;
         z-index: 2;
     }
 
@@ -111,8 +114,8 @@ p {
         bottom: 150px;
         left: 225px;
         margin: 0;
-
     }
+
 
     .mainHeader {
         position: relative;
@@ -125,7 +128,13 @@ p {
 
     hr {
         display: block;
+        position: relative;
+        bottom: 60px;
+        margin: 0 1em;
     }
 
+    #visualDesign h2 {
+        font-size: 38px;
+    }
 
 }
