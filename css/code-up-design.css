@@ -20,6 +20,12 @@
 .headings, span {
     font-family: 'Anton', sans-serif;
 }
+
+.rounded-circle .headings {
+    position: relative;
+    top: 10px;
+}
+
 #nav{
     margin-bottom: 2em;
 }
