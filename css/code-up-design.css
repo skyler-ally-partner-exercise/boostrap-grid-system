@@ -71,12 +71,17 @@ body {
 p {
     font-size: .9em;
 }
+.featProject {
+    margin-bottom: 0;
+}
 .projectBadges {
+    margin-top: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 90%;
     margin-left: 5%;
+    text-align: center;
 }
 .badgeBase {
     display: flex;
@@ -150,11 +155,19 @@ h1 {
         bottom: 100px;
     }
     .project-image {
-        width: 90%;
+        width: 100%;
         height: 30%;
     }
     .projectBadges {
         margin-bottom: 3em;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .featProject {
+        font-size: .7em;
+    }
+    .badgeBase {
+        width: 50%;
     }
     #theLastHeader {
         font-family: Abel, sans-serif;
@@ -185,5 +198,10 @@ h1 {
     }
     i {
         color: #009dfa;
+    }
+}
+@media screen and (min-width:992px) {
+    .container {
+        width: 768px;
     }
 }
