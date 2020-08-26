@@ -88,6 +88,14 @@ p {
     justify-content: space-between;
     width: 35%;
 }
+.badge {
+    font-size: .6em;
+}
+.badgeLetter {
+    position: relative;
+    top: 3px;
+    /*left: .5px;*/
+}
 h1 {
 
 }
@@ -168,6 +176,8 @@ h1 {
     }
     .badgeBase {
         width: 50%;
+        position: relative;
+        left: 20px;
     }
     #theLastHeader {
         font-family: Abel, sans-serif;
