@@ -79,7 +79,6 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 90%;
     margin-left: 5%;
     text-align: center;
 }
@@ -175,9 +174,7 @@ h1 {
         font-size: .7em;
     }
     .badgeBase {
-        width: 50%;
-        position: relative;
-        left: 20px;
+        width: 40%;
     }
     #theLastHeader {
         font-family: Abel, sans-serif;
