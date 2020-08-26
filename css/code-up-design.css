@@ -1,5 +1,5 @@
 body {
-    background-color:#E6E6E6;
+    background-color:#f0f0f0;
 }
 .container {
     font-family: 'Abel', sans-serif;
@@ -46,7 +46,7 @@ body {
     color: white;
 }
 .project-image {
-    border: gray solid 6px;
+    border: #e6e6e6 solid 6px;
     width: 90%;
     border-radius: 5px;
 }
@@ -130,8 +130,6 @@ h1 {
         left: 35px;
         margin: 0;
     }
-
-
     .mainHeader {
         position: relative;
         bottom: 100px;
@@ -147,23 +145,25 @@ h1 {
         bottom: 60px;
         margin: 0 1em;
     }
+    main {
+        position: relative;
+        bottom: 100px;
+    }
     .project-image {
         width: 90%;
-        height: 35%;
-    }
-    .feature {
-        margin: 2em;
+        height: 30%;
     }
     .projectBadges {
         margin-bottom: 3em;
     }
     #theLastHeader {
-        font-family: Abel;
+        font-family: Abel, sans-serif;
     }
     .lastDescription {
-        font-family: Anton;
+        font-family: Anton, sans-serif;
         margin: 0;
-        font-size: 100%;
+        font-size: 1.14em;
+        line-height: 1.2;
     }
     #visualDesign h2 {
         font-size: 38px;
@@ -172,9 +172,18 @@ h1 {
         display: block;
     }
     .theLast-image {
-        width: 31%;
-        height: 31%;
+        border: #e6e6e6 solid 2px;
+        width: 48.8px;
+        height: 45.66px;
+        margin-top: -2px;
         margin-left: 10px;
-        padding-right: 10px;
+        margin-right: 10px;
+    }
+    .lastTweet {
+        font-family: 'Abel', sans-serif;
+        font-size: .75em;
+    }
+    i {
+        color: #009dfa;
     }
 }
