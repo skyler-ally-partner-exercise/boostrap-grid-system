@@ -64,6 +64,7 @@ body {
     width: 18px;
     border-radius: 120px;
     color: black;
+    font-size: .6em;
 }
 
 .orange {
@@ -78,7 +79,6 @@ body {
 .blue {
     background-color: #00ABA9;
 }
-
 
 .featProject {
     margin-bottom: 0;
@@ -100,9 +100,6 @@ body {
     width: 35%;
 }
 
-.badge {
-    font-size: .6em;
-}
 
 .badgeLetter {
     position: relative;
